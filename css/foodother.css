@@ -1,0 +1,259 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+/*navbar css*/
+.navbar{
+	height: 65px;
+	width: 100%;
+	background: white;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	box-sizing: border-box;
+	position: fixed;
+}
+.menu{
+	margin-right: 115px;
+}
+.menu a{
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+	color: #d70f64;
+	padding: 0 10px;
+	font-family: sans-serif;
+}
+.logo img{
+	height: 30px;
+	margin-left: 142px;
+}
+/*navbar css end*/
+/*banner css start*/
+.banner{
+	background: url(../images/banner.jpg);
+	width: 100%;
+	height: 606px;
+	background-size: cover;
+	background-position: center;
+}
+.banner h1{
+	text-align: center;
+	color: white;
+	font-size: 42px;
+	font-family: sans-serif;
+	position: relative;
+	top: 50%;
+}
+/*banner css end*/
+/*flag-bar css start*/
+.flag-bar{
+	width: 100%;
+	height: 56px;
+	background: #00000052;
+	margin-top: -56px;
+	box-sizing: border-box;
+	display: flex;
+}
+.flag-bar h5{
+	color: white;
+	font-family: sans-serif;
+	padding: 10px 90px;
+}
+.country-flags{
+	margin: 5px 0px;
+	box-sizing: border-box;
+}
+.country-flags img{
+	height: 30px;
+	margin: 5px;
+	border-radius: 3px;
+}
+/*flag-bar css end*/
+/*intro box css start*/
+.intro-box{
+	width: 100%;
+	height: 540px;
+	box-sizing: border-box;
+}
+.intro-box h2{
+	color: #d70f64;
+	font-size: 30px;
+	font-family: sans-serif;
+	text-align: center;
+	padding: 190px 0px;
+}
+.intro-box p{
+	text-align: center;
+	color: black;
+	font-family: sans-serif;
+	margin-top: -170px;
+}
+.about-button{
+	text-align: center;
+}
+.about-button button{
+	width: 255px;
+	height: 50px;
+	color: white;
+	font-family: sans-serif;
+	background: #d70f64;
+	border: 1px solid #d70f64;
+	margin-top: 30px;
+}
+/*intro box css end*/
+/*intro-box2 css start*/
+.intro-box2{
+	background: url(../images/banner2.jpg);
+	width: 100%;
+	height: 550px;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+}
+.intro-box2 h2{
+	text-align: center;
+	font-size: 30px;
+	font-family: sans-serif;
+	position: relative;
+	color: #d70f64;
+	top: 40%;
+	margin:auto;
+}
+.intro-box2 p{
+	font-size: 20px;
+	text-align: center;
+	font-family: sans-serif;
+	color: white;
+	position: relative;
+	margin: auto;
+	top:45%;
+}
+.intro-box2-button{
+	text-align: center;
+}
+.intro-box2-button button{
+	width: 255px;
+	height: 50px;
+	color: white;
+	font-family: sans-serif;
+	background: #d70f64;
+	border: 1px solid #d70f64;
+	margin-top: 280px;
+}
+/*intro-box2 css end*/
+/*intro-box3 css start*/
+.intro-box3{
+	background: url(../images/banner3.jpg);
+	width: 100%;
+	height: 550px;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+}
+.intro-box3 h2{
+	text-align: center;
+	font-size: 30px;
+	font-family: sans-serif;
+	position: relative;
+	color: #d70f64;
+	top: 40%;
+	margin:auto;
+}
+.intro-box3 p{
+	font-size: 20px;
+	text-align: center;
+	color: white;
+	font-family: sans-serif;
+	position: relative;
+	margin: auto;
+	top:45%;
+}
+.intro-box3-button{
+	text-align: center;
+}
+.intro-box3-button button{
+	width: 255px;
+	height: 50px;
+	color: white;
+	font-family: sans-serif;
+	background: #d70f64;
+	border: 1px solid #d70f64;
+	margin-top: 280px;
+}
+/*intro-box3 css end*/
+/*intro-body css start*/
+.intro-body{
+	width: 100%;
+	height: 550px;
+	background: #d70f64;
+	box-sizing: border-box;
+}
+.intro-body h2{
+	text-align: center;
+	font-size: 30px;
+	font-family: sans-serif;
+	position: relative;
+	color: white;
+	top: 40%;
+	margin:auto;
+}
+.intro-body p{
+	font-size: 20px;
+	text-align: center;
+	color: white;
+	font-family: sans-serif;
+	position: relative;
+	margin: auto;
+	top:45%;
+}
+.intro-body-button{
+	text-align: center;
+}
+.intro-body-button button{
+	width: 255px;
+	height: 50px;
+	color: #d70f64;
+	background: white;
+	font-family: sans-serif;
+	border: 1px solid #d70f64;
+	margin-top: 280px;
+}
+/*intro-body css end*/
+/*footer start*/
+.footer{
+	width: 100%;
+	height: 130px;
+	box-sizing: border-box;
+	display: flex;
+	align-items: center;
+}
+.footer img{
+	height: 40px;
+	margin: 0px 0px 0px 90px
+}
+.footer p{
+	font-size: 16px;
+	margin: 0px 0px 0px 90px
+}
+.footer-icon{
+	text-align: right;
+	margin-left: 800px;
+	box-sizing: border-box;
+}
+.footer-icon img{
+	margin: 1px;
+	height: 33px;
+	padding: 0px 0px 20px 0px;
+}
+.footer-menu{
+	margin-top: -15px;
+}
+.footer-menu a{
+	text-decoration: none;
+	font-size: 16px;
+	font-family: sans-serif;
+	color: black;
+	padding: 5px;
+}
+/*footer end*/

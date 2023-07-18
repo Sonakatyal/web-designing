@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<!-- koi bi link dalo to uske default colors set rehte hai to usko change krne ke  liye use krte hai css -->
+<style>
+/*	sbko alag likhoge to alag link ke text n all ko edit kr skte ho*/
+	/*a:link {
+		color: green;
+		text-decoration: none;
+		background-color: transparent;
+	}*/
+/*	link and visited ko sathme likhoge to link ek button ban jayga same as hover and active*/
+	a:link, a:visited {
+
+		color: green;
+		background-color: brown;
+		padding: 15px 25px;
+		text-align: center;
+		display: inline-block;
+		text-decoration: none;
+	}
+	a:hover{
+		color: red;
+		background-color: transparent;
+		text-decoration: none;
+	}
+	a:active{
+		color: yellow;
+		background-color: transparent;
+		text-decoration: none;
+	}
+
+</style>
+
+<body>
+	<h1> These are absolute URLS</h1>
+	<!-- koi bi link add krne ke liye apni website pe  -->
+	<p><a href="https://www.amazon.in/">click here </a></p>
+	<!-- Target attribute specifies where to open the linked document 
+	_self open document in same window
+	_blank open the document in new tab
+	_parent open the document in parent frame
+	_top open the document in full body of window
+ -->
+ <h1>TARGET ATTRIBUTE</h1>
+
+ <a href="https://www.amazon.in/" target="_blank">click here</a>
+ <h1>These are relative URLS </h1>
+ <h4>mainly used for images link</h4>
+ <p><a href="html_beauty.asp"> happy</a></p>
+
+
+<h1>THIS IS AN INTERESTING KEY</h1>
+ <h1>Image as a link</h1>
+ <h2>The image below is link</h2>
+ <a href="https://www.amazon.in/" target="_blank"> <img src="image/happy.gif" alt="happy.gif" style="width:100px;height: 100px;"></a>
+
+
+ <h1>Link to email address</h1>
+ <p>To create a link that opens in the user's email program to let them send a new email use mailto: inside the herf attribute</p>
+ <p><a href="mailto:kashishkatyal166@gmail.com">SEND EMAIL </a></p>
+
+
+ 
+</body>
+</html>

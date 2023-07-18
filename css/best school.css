@@ -1,0 +1,206 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.navbar{
+	width: 100%;
+	height: 50px;
+	background-color: #e67a00;
+	position: fixed;
+	display: flex;
+    justify-content: flex-start;
+    float: left;
+    padding-left: 115px;
+    padding-top: 11px;
+}
+.logo a{
+	font-size: 20px;
+	font-family: sans-serif;
+	color: white;
+    text-decoration: none;
+}
+.menu a{
+	font-size: 18px;
+	color: white;
+    text-decoration: none;
+    padding: 40px;
+}
+.banner{
+	background-image: url(../image/school.jpg);
+	background-position: center;
+	background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+	height: 600px;
+	background-attachment: fixed;
+}
+.banner h2{
+	font-size: 50px;
+	color: white;
+	font-family: emoji;
+	font-weight: bold;
+	padding-top: 259px;
+	letter-spacing: 2px;
+}
+.banner h5{
+	color: white;
+	font-size: 20px;
+    padding: 10px;
+    font-family: initial;
+}
+.banner input{
+	color: gray;
+    background: rgba(0,0,0,.7);
+    height: 38px;
+    width: 792px;
+    padding-top: 7px;
+    padding-right: 485px;
+    font-size: 17px;
+    font-family: fangsong;
+    margin-top: 5px;
+    border: none;
+    padding-left: 5px;
+}
+.heading h1{
+	font-size: 42px;
+    color: black;
+    letter-spacing: 2px;
+    font-weight: bold;
+    margin-top: 95px;
+}
+.heading h5{
+	font-size: 21px;
+	color: #666;
+	margin-top: 20px;
+}
+.coloumn{
+	float: left;
+}
+.coloumn img{
+	height: 247px;
+	width: 366px;
+	border: 4px solid #ddd;
+	margin-top: 70px;
+    margin-left: 85px;
+}
+.coloumn h5{
+	font-size: 22px;
+    color: white;
+    font-family: sans-serif;
+    margin-top: -37px;
+    padding-left: 226px;
+}
+.coloumn2{
+	float: left;
+}
+.coloumn2 img{
+	height: 247px;
+	width: 366px;
+	border: 4px solid #ddd;
+	margin-left: 54px;
+    margin-top: 68px;
+}
+.coloumn2 h5{
+	font-size: 22px;
+    color: white;
+    font-family: sans-serif;
+    margin-top: -37px;
+    padding-left: 204px;
+}
+.coloumn3{
+	float: left;
+}
+.coloumn3 img{
+	height: 247px;
+	width: 366px;
+	border: 4px solid #ddd;
+	margin-top: 67px;
+    margin-left: 54px;
+}
+.coloumn3 h5{
+	font-size: 22px;
+    color: white;
+    font-family: sans-serif;
+    margin-top: -37px;
+    padding-left: 208px;
+}
+.other-button button{
+	border-radius: 30px;
+	font-size: 24px;
+	background-color: #e67a00;
+	text-align: center;	
+	width: 255px;
+	height: 50px;
+	color: white;
+	font-family: sans-serif;
+	margin-top: 101px;
+    margin-right: 388px;
+    border: 1px solid  #e67a00;
+}
+.quote{
+	background-color: #80808047;
+    text-align: center;
+    width: 100%;
+    height: 350px;
+    margin-top: 90px;
+}
+.quote p{
+	font-size: 24px;
+    font-family: cursive;
+    padding-top: 132px;
+}
+.quote h5{
+	font-size: 18px;
+	margin-top: 30px;
+}
+.footer{
+	margin-top: 45px;
+    height: 227px;
+    width: 100%;
+    padding: 81px;
+    padding-top: 30px;
+    padding-bottom: -3px;
+    background: #80808014;
+    color: black;
+    display: flex;
+}
+.footer div{
+	text-align: center;
+}
+.col2{
+	flex-grow: 2;/*it take space 2 time*/
+}
+.footer div h3{
+	font-weight: 300;
+	margin-bottom: 30px;
+	letter-spacing: 1px;
+}
+.col1 a{
+	display: block;
+	text-decoration: none;
+	color: black;
+	margin-bottom: 10px;
+}
+form input{
+	width: 230px;
+    height: 29px;
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 26px;
+    outline: none;
+    border: none;
+}
+form button{
+	background: transparent;
+    border: 2;
+    color: black;
+    border-radius: 5px;
+    font-size: 15px;
+    height: 28px;
+    width: 73px;
+}
+.social-icon img{
+	margin-top: 39px;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>MARGIN</title>
+	<style>
+		.a{
+			border: solid 10px;
+			margin-left: 200px;
+			margin-right: 200px;
+			margin-top: 200px;
+			margin-bottom: 100px;
+/*			dhaka lagne se shift hota hai dsra wala*/
+
+		}
+		.b{
+			border: solid red 10px;
+			margin: 100px;
+/*			chaaro tarf se kaam krta hai akela margin top right left bottom*/
+		}
+		.c{
+			border: dotted black 10px;
+			margin: 100px 40px 54px 78px;
+/*			         top   left bottom right*/
+            margin: 54px 45px;
+/*               srf agr 2 likhe hai like 100px and 54px to 100px kaam karyga top and bottom and 54px kaam karyga left and right  */
+            margin: 0px 54px;
+/*            top and bottom nahi chalyga kyuki vo zero hai */
+            margin: 54px 0px;
+/*            left and right nahi chalyga kyuki vo zero hai */
+            margin: 54px 78px 65px;
+/*                    top   left and right  bottom*/
+            margin: auto;
+		}
+	</style>
+</head>
+<body>
+
+<h1 class="a">happy</h1>
+<h2 class="b">hello</h2>
+<h3 class="c">gwalior</h3>
+</body>
+</html>

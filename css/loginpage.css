@@ -1,0 +1,59 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: url("../image/america.jpg") no-repeat center center fixed;
+	background-size: cover;
+}
+.container{
+	color: black;
+	position: absolute;
+	top: 5%;
+	left: 50%;
+}
+.container h1{
+	font-size: 40px;
+	border-bottom: 5px solid black;
+	margin-bottom: 32px;
+	position: 13px;
+	display: inline-block;
+}
+.box{
+	width: 100%;
+	border-bottom: 2px solid black;
+	padding-top: 5px;
+}
+.box input{
+	width: 75%;
+	border: none;
+	outline: none;
+	font-size: 20px;
+    background: none;
+    padding-bottom: 3px;
+
+}
+.box i{
+	margin-bottom: 2px;
+	width: 30px;
+	text-align: center;
+	margin: 17px;
+}
+.btn{
+	cursor: pointer;
+	font-size: 16px;
+	background: none;
+	color: black;
+	padding: 10px 21px;
+    margin-top: 39px;
+	outline: none;
+	width: 25%;
+	padding: 6px;
+	border-radius: 10px;
+	border: 2px solid black;
+	font-weight: bold;
+}
+.btn:hover{
+	background: white;
+	color: blueviolet;
+}

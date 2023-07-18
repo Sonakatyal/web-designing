@@ -1,0 +1,42 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.navbar{
+	background: white;
+	width: 100%;
+	height: 80px;
+	display: flex;
+/*	all solution key*/
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 42px;
+}
+.logo img{
+	width: 200px;
+}
+.menu a{
+	color: black;
+	font-size: 18px;
+	text-decoration: none;
+	margin: 0 10px;
+	font-weight: bold;
+}
+.banner{
+	width: 100%;
+	height: 500px;
+}
+.headline{
+	text-align: center;
+	margin-top:-306px;
+	color: white;
+	font-size: 33px;
+	font-weight: bold;
+}
+.headline2{
+	text-align: center;
+	color: white;
+	font-size: 56px;
+	font-weight: bold;
+}
